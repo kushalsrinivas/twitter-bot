@@ -3,10 +3,10 @@ import tweepy
 import datetime
 import Api
 
-consumer_key = 'KXrvAm7zPto1RAmm14nr1iFT0'
-consumer_secret = 'wOFuB3Pw8ho1Y1wXsOWS4ceMG84iTAzNzjaPaxriTq0CeeckRV'
-access_token = '1524709195970670592-9AGYTKdJpxfoInoe7TN7CAupBL8YpM'
-access_token_secret = 'DdvxTmxBSnpieIf7Vk5nLTG2Tm6zqZq35vIuTwzbSBUHl'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
